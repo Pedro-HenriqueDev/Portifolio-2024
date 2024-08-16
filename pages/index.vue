@@ -360,7 +360,7 @@
         twitterImage:
             "https://avatars.githubusercontent.com/u/82292364?s=400&u=b64d132c143f89a42f8f5b9d03f448ba5dd39096&v=4.png",
         ogLocale: "pt_BR",
-        robots: "index, follow",
+        robots: "index",
     });
 
     definePageMeta({
