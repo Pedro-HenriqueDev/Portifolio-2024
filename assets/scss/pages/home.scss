@@ -1,0 +1,87 @@
+#home-page {
+    background-color: #405d72;
+    color: #eeeeee;
+    @keyframes fade-in {
+        0% {
+            transform: translate(0, -70px);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+    }
+    .container {
+        height: 100vh;
+        width: 100%;
+        background: no-repeat fixed;
+        background-size: cover;
+    }
+    .container-styled {
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+    .container-centered {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-main-title {
+        animation: fade-in 1s forwards ease-in-out;
+
+        .title {
+            font-size: 109px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            letter-spacing: 20px;
+
+            @media screen and (max-width: 900px) {
+                font-size: 80px;
+                letter-spacing: 5px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 50px;
+                letter-spacing: 5px;
+            }
+        }
+        .subtitle {
+            font-family: "Montserrat", sans-serif;
+            font-size: 55px;
+            font-weight: 500;
+            letter-spacing: 3px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 30px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .year {
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        bottom: 10%;
+    }
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.container-image-profile {
+    display: flex;
+    width: 500px !important;
+}
+
+.container-description {
+    width: 960px !important;
+}
+
+.col_no_padding {
+    padding: 0 !important;
+}
