@@ -341,13 +341,16 @@
     const backEndIcons = languagesBackEnd;
     const othersIcons = others;
 
+    useHead({
+        title: "Pedro Henrique - Portfolio",
+    });
     useSeoMeta({
         title: "Pedro Henrique - Portfolio",
         ogTitle: "Pedro Henrique - Portfolio",
         description: "Prazer, eu sou o Pedro e trabalho com desenvolvimento web há 3 anos.",
         ogDescription: "Prazer, eu sou o Pedro e trabalho com desenvolvimento web há 3 anos.",
         ogImage:
-            "https://avatars.githubusercontent.com/u/82292364?s=400&u=b64d132c143f89a42f8f5b9d03f448ba5dd39096&v=4",
+            "https://avatars.githubusercontent.com/u/82292364?s=400&u=b64d132c143f89a42f8f5b9d03f448ba5dd39096&v=4.png",
 
         ogUrl: "https://pedro-henrique.dev",
         ogType: "website",
@@ -355,7 +358,7 @@
         twitterTitle: "Pedro Henrique - Portfolio",
         twitterDescription: "Prazer, eu sou o Pedro e trabalho com desenvolvimento web através 3 anos.",
         twitterImage:
-            "https://avatars.githubusercontent.com/u/82292364?s=400&u=b64d132c143f89a42f8f5b9d03f448ba5dd39096&v=4",
+            "https://avatars.githubusercontent.com/u/82292364?s=400&u=b64d132c143f89a42f8f5b9d03f448ba5dd39096&v=4.png",
         ogLocale: "pt_BR",
     });
 
